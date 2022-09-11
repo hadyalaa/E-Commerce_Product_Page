@@ -26,17 +26,23 @@ grid-row-end: 2;
 
  .menu li{
     display: inline;
+    margin-left: 10px;
  }
  .login-photo
  {
-   margin-top: 2%;
+   margin-top: 1%;
+   width: 5%;
    float:right;
-   size: 2px;
-
+margin-left: 2%;
  }
+ .login-photo img
+ {
+   width: 50%;
+ }
+ 
  .cart
  {
-   margin-top: 2%;
+   margin-top: 1%;
    float:right; 
  }
  .product {
@@ -53,10 +59,12 @@ grid-column-end: 3;
     
    }
   
-   .add-cart
+   .add-cart div
    {
-      margin-left: 30%;
+      display: inline-block;
+      margin-left: 2%;
    }
+   
    
    
 
